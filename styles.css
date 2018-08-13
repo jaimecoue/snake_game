@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+canvas {
+
+	border: 5px solid black;
+}
+
+
+.snake-heading {
+	padding-top: 40px;
+	font-family: 'Hanalei Fill', cursive;
+	font-size: 5em;
+	color: black;
+}
+
+.snake-instructions {
+	font-family: 'Hanalei Fill', cursive;
+	font-size: 2em;
+	padding-bottom: 20px;
+}
